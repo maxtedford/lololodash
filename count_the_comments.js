@@ -9,7 +9,7 @@ var worker = function(collection) {
       username: name,
       comment_count: _.size(comment)
     })
-  })
+  });
   
   return counted.reverse();
 };
