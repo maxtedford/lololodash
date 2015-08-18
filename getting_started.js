@@ -1,7 +1,7 @@
-var _ = require('lodash');
+var _ = require("lodash");
 
-var worker = function (collection) {
-  return _.where(collection, { 'active': true });
+var worker = function(users) {
+  return _.where(users, {'active' : true})
 };
 
 module.exports = worker;
