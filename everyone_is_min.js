@@ -7,8 +7,8 @@ var worker = function(city) {
     warm: []
   };
 
-  function isOverNineteen (city) {
-    return city > 19;
+  function isOverNineteen (temp) {
+    return temp > 19;
   }
 
   _.forEach(city, function (temps, townname) {
